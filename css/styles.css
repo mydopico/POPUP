@@ -1,0 +1,97 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    background-image:  
+    url("https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important; 
+    background-attachment: fixed;    
+}
+
+/* NAVBAR */
+
+.navbar {
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));    
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color:#9a1708;
+    margin-left: 10%;
+    text-shadow: 4px 4px 8px #b8b3b3;   
+}
+
+.navbar-brand:hover {
+    color: rgb(124, 70, 4);
+}
+
+/* BUTTON GIFTS ICON */
+#gifts {
+    margin-top: 20vh;
+    padding: 10px 30px; 
+    border-radius: 24px;     
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);   
+}
+
+.fa-gifts {
+    color: #fff;
+    transition: all 0.6s ease;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+}
+
+a:hover .fa-gifts {
+    color: #9d105b;
+    font-size: 12.5rem;
+}
+
+/* MODAL POP UP WINDOW */
+
+.modal-header {
+    color: #BB377D;    
+}
+
+#myModal {
+    background: rgba(234, 100, 100, 0.3);
+}
+
+.modal-content {
+    margin-top: 22vh;   
+    background-color: rgba(255, 255, 255, 0.7) !important;
+} 
+
+/* LOGIN BUTTON */
+#login {
+    border-radius: 32px;
+    font-weight: bold;
+    background: #FBD3E9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 5px 10px 18px #888888;
+    color: #fff;
+}
+
+/* FOOTER AT THE BOTTOM */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px; 
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;   
+}
+
+#text-footer {
+    margin-left: 5%;    
+}
